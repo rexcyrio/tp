@@ -131,7 +131,7 @@ Format: `add r/RANK n/NAME [u/UNIT] [c/COMPANY] [pl/PLATOON] p/PHONE_NUMBER e/EM
 
 Examples:
 
-- `add n/Lawrence Tay t/platoon-sergeant e/lawrencetay@gmail.com a/124 Drummond Street p/91649723 r/3SG u/1 GDS t/allergy-seafood`
+- `add n/Lawrence Tay t/platoonSergeant e/lawrencetay@gmail.com a/124 Drummond Street p/91649723 r/3SG u/1 GDS t/seafoodAllergy`
   adds a new person `Lawrence Tay` to AIMS with the following information:
 
   | Field        | Value                 |
@@ -142,8 +142,8 @@ Examples:
   | phone number | 91649723              |
   | email        | lawrencetay@gmail.com |
   | address      | 124 Drummond Street   |
-  | tag          | platoon-sergeant      |
-  | tag          | allergy-seafood       |
+  | tag          | platoonSergeant       |
+  | tag          | seafoodAllergy        |
 
 ### Importing multiple persons from a CSV file : `importcsv`
 
